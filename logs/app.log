@@ -1,0 +1,565 @@
+2025-04-12 11:47:35 [main] INFO  c.w.r.Restaurant2Application - Starting Restaurant2Application using Java 24 with PID 25648 (C:\uni\Restaurant2\Restaurant2\build\classes\java\main started by Volodymyr in C:\uni\Restaurant2\Restaurant2)
+2025-04-12 11:47:35 [main] INFO  c.w.r.Restaurant2Application - No active profile set, falling back to 1 default profile: "default"
+2025-04-12 11:47:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-12 11:47:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2025-04-12 11:47:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-12 11:47:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-12 11:47:36 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-12 11:47:36 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-12 11:47:36 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-12 11:47:36 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 949 ms
+2025-04-12 11:47:36 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-12 11:47:36 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5bb7a59
+2025-04-12 11:47:36 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-12 11:47:36 [main] INFO  liquibase.database - Set default schema name to public
+2025-04-12 11:47:37 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 11:47:37 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2025-04-12 11:47:37 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 11:47:37 [main] INFO  liquibase.util - UPDATE SUMMARY
+2025-04-12 11:47:37 [main] INFO  liquibase.util - Run:                          0
+2025-04-12 11:47:37 [main] INFO  liquibase.util - Previously run:               5
+2025-04-12 11:47:37 [main] INFO  liquibase.util - Filtered out:                 0
+2025-04-12 11:47:37 [main] INFO  liquibase.util - -------------------------------
+2025-04-12 11:47:37 [main] INFO  liquibase.util - Total change sets:            5
+2025-04-12 11:47:37 [main] INFO  liquibase.util - Update summary generated
+2025-04-12 11:47:37 [main] INFO  liquibase.command - Command execution complete
+2025-04-12 11:47:37 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-12 11:47:37 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-12 11:47:37 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-12 11:47:37 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-12 11:47:37 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-12 11:47:37 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-12 11:47:37 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 11:47:38 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-12 11:47:38 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-12 11:47:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-12 11:47:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-12 11:47:38 [main] INFO  c.w.r.Restaurant2Application - Started Restaurant2Application in 3.517 seconds (process running for 7.067)
+2025-04-12 11:47:38 [RMI TCP Connection(3)-192.168.50.197] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-12 11:47:38 [RMI TCP Connection(3)-192.168.50.197] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-12 11:47:38 [RMI TCP Connection(3)-192.168.50.197] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-12 11:49:07 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 11:49:07 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-12 11:49:07 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 11:49:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-12 11:49:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-12 11:51:11 [main] INFO  c.w.r.Restaurant2Application - Starting Restaurant2Application using Java 24 with PID 6824 (C:\uni\Restaurant2\Restaurant2\build\classes\java\main started by Volodymyr in C:\uni\Restaurant2\Restaurant2)
+2025-04-12 11:51:11 [main] INFO  c.w.r.Restaurant2Application - No active profile set, falling back to 1 default profile: "default"
+2025-04-12 11:51:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-12 11:51:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2025-04-12 11:51:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-12 11:51:12 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-12 11:51:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-12 11:51:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-12 11:51:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-12 11:51:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 943 ms
+2025-04-12 11:51:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-12 11:51:12 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@192b472d
+2025-04-12 11:51:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-12 11:51:12 [main] INFO  liquibase.database - Set default schema name to public
+2025-04-12 11:51:12 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 11:51:12 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2025-04-12 11:51:12 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 11:51:12 [main] INFO  liquibase.util - UPDATE SUMMARY
+2025-04-12 11:51:12 [main] INFO  liquibase.util - Run:                          0
+2025-04-12 11:51:12 [main] INFO  liquibase.util - Previously run:               5
+2025-04-12 11:51:12 [main] INFO  liquibase.util - Filtered out:                 0
+2025-04-12 11:51:12 [main] INFO  liquibase.util - -------------------------------
+2025-04-12 11:51:12 [main] INFO  liquibase.util - Total change sets:            5
+2025-04-12 11:51:12 [main] INFO  liquibase.util - Update summary generated
+2025-04-12 11:51:12 [main] INFO  liquibase.command - Command execution complete
+2025-04-12 11:51:13 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-12 11:51:13 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-12 11:51:13 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-12 11:51:13 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-12 11:51:13 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-12 11:51:13 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-12 11:51:13 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 11:51:14 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-12 11:51:14 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-12 11:51:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-12 11:51:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-12 11:51:14 [main] INFO  c.w.r.Restaurant2Application - Started Restaurant2Application in 3.636 seconds (process running for 3.94)
+2025-04-12 11:51:14 [RMI TCP Connection(4)-192.168.50.197] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-12 11:51:14 [RMI TCP Connection(4)-192.168.50.197] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-12 11:51:14 [RMI TCP Connection(4)-192.168.50.197] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-12 11:51:17 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        mi1_0.id,
+        mi1_0.category,
+        mi1_0.description,
+        mi1_0.name,
+        mi1_0.price 
+    from
+        menuitem mi1_0
+2025-04-12 11:51:39 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        rt1_0.id,
+        rt1_0.table_number 
+    from
+        restauranttable rt1_0 
+    where
+        rt1_0.id=?
+2025-04-12 11:51:39 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        mi1_0.id,
+        mi1_0.category,
+        mi1_0.description,
+        mi1_0.name,
+        mi1_0.price 
+    from
+        menuitem mi1_0 
+    where
+        mi1_0.id=?
+2025-04-12 11:51:39 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        mi1_0.id,
+        mi1_0.category,
+        mi1_0.description,
+        mi1_0.name,
+        mi1_0.price 
+    from
+        menuitem mi1_0 
+    where
+        mi1_0.id=?
+2025-04-12 11:51:39 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        customerorder
+        (restauranttable) 
+    values
+        (?)
+2025-04-12 11:51:39 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        orderitem
+        (order_id, menu_item_id, quantity) 
+    values
+        (?, ?, ?)
+2025-04-12 11:51:39 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        orderitem
+        (order_id, menu_item_id, quantity) 
+    values
+        (?, ?, ?)
+2025-04-12 11:51:41 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        rt1_0.id,
+        rt1_0.table_number 
+    from
+        restauranttable rt1_0
+2025-04-12 11:51:41 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        co1_0.id,
+        co1_0.restauranttable 
+    from
+        customerorder co1_0 
+    where
+        co1_0.restauranttable=?
+2025-04-12 11:51:41 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        co1_0.id,
+        co1_0.restauranttable 
+    from
+        customerorder co1_0 
+    where
+        co1_0.restauranttable=?
+2025-04-12 11:51:41 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        co1_0.id,
+        co1_0.restauranttable 
+    from
+        customerorder co1_0 
+    where
+        co1_0.restauranttable=?
+2025-04-12 11:51:41 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        co1_0.id,
+        co1_0.restauranttable 
+    from
+        customerorder co1_0 
+    where
+        co1_0.restauranttable=?
+2025-04-12 11:51:41 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        co1_0.id,
+        co1_0.restauranttable 
+    from
+        customerorder co1_0 
+    where
+        co1_0.restauranttable=?
+2025-04-12 11:51:58 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 11:51:58 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-12 11:51:58 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 11:51:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-12 11:51:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-12 11:52:54 [main] INFO  c.w.r.Restaurant2Application - Starting Restaurant2Application using Java 24 with PID 4532 (C:\uni\Restaurant2\Restaurant2\build\classes\java\main started by Volodymyr in C:\uni\Restaurant2\Restaurant2)
+2025-04-12 11:52:54 [main] INFO  c.w.r.Restaurant2Application - No active profile set, falling back to 1 default profile: "default"
+2025-04-12 11:52:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-12 11:52:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2025-04-12 11:52:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-12 11:52:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-12 11:52:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-12 11:52:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-12 11:52:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-12 11:52:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 979 ms
+2025-04-12 11:52:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-12 11:52:55 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@395a573c
+2025-04-12 11:52:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-12 11:52:55 [main] INFO  liquibase.database - Set default schema name to public
+2025-04-12 11:52:55 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 11:52:55 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2025-04-12 11:52:55 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 11:52:55 [main] INFO  liquibase.util - UPDATE SUMMARY
+2025-04-12 11:52:55 [main] INFO  liquibase.util - Run:                          0
+2025-04-12 11:52:55 [main] INFO  liquibase.util - Previously run:               5
+2025-04-12 11:52:55 [main] INFO  liquibase.util - Filtered out:                 0
+2025-04-12 11:52:55 [main] INFO  liquibase.util - -------------------------------
+2025-04-12 11:52:55 [main] INFO  liquibase.util - Total change sets:            5
+2025-04-12 11:52:55 [main] INFO  liquibase.util - Update summary generated
+2025-04-12 11:52:55 [main] INFO  liquibase.command - Command execution complete
+2025-04-12 11:52:55 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-12 11:52:55 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-12 11:52:55 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-12 11:52:55 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-12 11:52:56 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-12 11:52:56 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-12 11:52:56 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 11:52:56 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-12 11:52:57 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-12 11:52:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-12 11:52:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-12 11:52:57 [main] INFO  c.w.r.Restaurant2Application - Started Restaurant2Application in 3.62 seconds (process running for 3.948)
+2025-04-12 11:52:57 [RMI TCP Connection(3)-192.168.50.197] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-12 11:52:57 [RMI TCP Connection(3)-192.168.50.197] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-12 11:52:57 [RMI TCP Connection(3)-192.168.50.197] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-12 11:53:36 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 11:53:36 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-12 11:53:36 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 11:53:36 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-12 11:53:36 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-12 12:05:12 [main] INFO  c.w.r.Restaurant2Application - Starting Restaurant2Application using Java 24 with PID 8484 (C:\uni\Restaurant2\Restaurant2\build\classes\java\main started by Volodymyr in C:\uni\Restaurant2\Restaurant2)
+2025-04-12 12:05:12 [main] INFO  c.w.r.Restaurant2Application - No active profile set, falling back to 1 default profile: "default"
+2025-04-12 12:05:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-12 12:05:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+2025-04-12 12:05:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-12 12:05:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-12 12:05:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-12 12:05:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-12 12:05:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-12 12:05:13 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1024 ms
+2025-04-12 12:05:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-12 12:05:14 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d84418a
+2025-04-12 12:05:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-12 12:05:14 [main] INFO  liquibase.database - Set default schema name to public
+2025-04-12 12:05:14 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 12:05:14 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2025-04-12 12:05:14 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 12:05:14 [main] INFO  liquibase.util - UPDATE SUMMARY
+2025-04-12 12:05:14 [main] INFO  liquibase.util - Run:                          0
+2025-04-12 12:05:14 [main] INFO  liquibase.util - Previously run:               5
+2025-04-12 12:05:14 [main] INFO  liquibase.util - Filtered out:                 0
+2025-04-12 12:05:14 [main] INFO  liquibase.util - -------------------------------
+2025-04-12 12:05:14 [main] INFO  liquibase.util - Total change sets:            5
+2025-04-12 12:05:14 [main] INFO  liquibase.util - Update summary generated
+2025-04-12 12:05:14 [main] INFO  liquibase.command - Command execution complete
+2025-04-12 12:05:14 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-12 12:05:14 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-12 12:05:14 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-12 12:05:14 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-12 12:05:14 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-12 12:05:15 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-12 12:05:15 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 12:05:15 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-12 12:05:15 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-12 12:05:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-12 12:05:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-12 12:05:16 [main] INFO  c.w.r.Restaurant2Application - Started Restaurant2Application in 3.733 seconds (process running for 4.041)
+2025-04-12 12:05:16 [RMI TCP Connection(4)-192.168.50.197] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-12 12:05:16 [RMI TCP Connection(4)-192.168.50.197] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-12 12:05:16 [RMI TCP Connection(4)-192.168.50.197] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-12 12:05:21 [http-nio-8080-exec-2] INFO  c.w.restaurant2.service.OrderService - Перегляд замовлень усіх столиків
+2025-04-12 12:05:21 [http-nio-8080-exec-2] INFO  c.w.restaurant2.service.OrderService - Столик 1Має замовлення
+2025-04-12 12:05:21 [http-nio-8080-exec-2] INFO  c.w.restaurant2.service.OrderService - Столик 2Має замовлення
+2025-04-12 12:05:21 [http-nio-8080-exec-2] INFO  c.w.restaurant2.service.OrderService - Столик 3Без замовлення
+2025-04-12 12:05:21 [http-nio-8080-exec-2] INFO  c.w.restaurant2.service.OrderService - Столик 4Без замовлення
+2025-04-12 12:05:21 [http-nio-8080-exec-2] INFO  c.w.restaurant2.service.OrderService - Столик 5Без замовлення
+2025-04-12 12:05:35 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 12:05:35 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-12 12:05:35 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 12:05:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-12 12:05:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-12 12:05:37 [main] INFO  c.w.r.Restaurant2Application - Starting Restaurant2Application using Java 24 with PID 21276 (C:\uni\Restaurant2\Restaurant2\build\classes\java\main started by Volodymyr in C:\uni\Restaurant2\Restaurant2)
+2025-04-12 12:05:37 [main] INFO  c.w.r.Restaurant2Application - No active profile set, falling back to 1 default profile: "default"
+2025-04-12 12:05:38 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-12 12:05:38 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2025-04-12 12:05:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-12 12:05:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-12 12:05:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-12 12:05:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-12 12:05:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-12 12:05:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 905 ms
+2025-04-12 12:05:38 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-12 12:05:38 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c6927f0
+2025-04-12 12:05:38 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-12 12:05:38 [main] INFO  liquibase.database - Set default schema name to public
+2025-04-12 12:05:39 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 12:05:39 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2025-04-12 12:05:39 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 12:05:39 [main] INFO  liquibase.util - UPDATE SUMMARY
+2025-04-12 12:05:39 [main] INFO  liquibase.util - Run:                          0
+2025-04-12 12:05:39 [main] INFO  liquibase.util - Previously run:               5
+2025-04-12 12:05:39 [main] INFO  liquibase.util - Filtered out:                 0
+2025-04-12 12:05:39 [main] INFO  liquibase.util - -------------------------------
+2025-04-12 12:05:39 [main] INFO  liquibase.util - Total change sets:            5
+2025-04-12 12:05:39 [main] INFO  liquibase.util - Update summary generated
+2025-04-12 12:05:39 [main] INFO  liquibase.command - Command execution complete
+2025-04-12 12:05:39 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-12 12:05:39 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-12 12:05:39 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-12 12:05:39 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-12 12:05:39 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-12 12:05:39 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-12 12:05:39 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 12:05:40 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-12 12:05:40 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-12 12:05:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-12 12:05:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-12 12:05:40 [main] INFO  c.w.r.Restaurant2Application - Started Restaurant2Application in 3.515 seconds (process running for 3.848)
+2025-04-12 12:05:41 [RMI TCP Connection(1)-192.168.50.197] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-12 12:05:41 [RMI TCP Connection(1)-192.168.50.197] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-12 12:05:41 [RMI TCP Connection(1)-192.168.50.197] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-12 12:05:44 [http-nio-8080-exec-1] INFO  c.w.restaurant2.service.OrderService - Отримання всіх елементів меню
+2025-04-12 12:05:48 [http-nio-8080-exec-6] INFO  c.w.restaurant2.service.OrderService - Перегляд замовлень усіх столиків
+2025-04-12 12:05:48 [http-nio-8080-exec-6] INFO  c.w.restaurant2.service.OrderService - Столик 1 Має замовлення
+2025-04-12 12:05:48 [http-nio-8080-exec-6] INFO  c.w.restaurant2.service.OrderService - Столик 2 Має замовлення
+2025-04-12 12:05:48 [http-nio-8080-exec-6] INFO  c.w.restaurant2.service.OrderService - Столик 3 Без замовлення
+2025-04-12 12:05:48 [http-nio-8080-exec-6] INFO  c.w.restaurant2.service.OrderService - Столик 4 Без замовлення
+2025-04-12 12:05:48 [http-nio-8080-exec-6] INFO  c.w.restaurant2.service.OrderService - Столик 5 Без замовлення
+2025-04-12 12:06:10 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 12:06:10 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-12 12:06:10 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 12:06:10 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-12 12:06:10 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-12 12:27:37 [Test worker] INFO  c.w.r.service.OrderServiceTest - Starting OrderServiceTest using Java 24 with PID 28080 (started by Volodymyr in C:\uni\Restaurant2\Restaurant2)
+2025-04-12 12:27:37 [Test worker] INFO  c.w.r.service.OrderServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-12 12:27:37 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-12 12:27:37 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 4 JPA repository interfaces.
+2025-04-12 12:27:38 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-12 12:27:38 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@269308cc
+2025-04-12 12:27:38 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-12 12:27:38 [Test worker] INFO  liquibase.database - Set default schema name to public
+2025-04-12 12:27:39 [Test worker] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 12:27:39 [Test worker] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2025-04-12 12:27:39 [Test worker] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 12:27:39 [Test worker] INFO  liquibase.util - UPDATE SUMMARY
+2025-04-12 12:27:39 [Test worker] INFO  liquibase.util - Run:                          0
+2025-04-12 12:27:39 [Test worker] INFO  liquibase.util - Previously run:               5
+2025-04-12 12:27:39 [Test worker] INFO  liquibase.util - Filtered out:                 0
+2025-04-12 12:27:39 [Test worker] INFO  liquibase.util - -------------------------------
+2025-04-12 12:27:39 [Test worker] INFO  liquibase.util - Total change sets:            5
+2025-04-12 12:27:39 [Test worker] INFO  liquibase.util - Update summary generated
+2025-04-12 12:27:39 [Test worker] INFO  liquibase.command - Command execution complete
+2025-04-12 12:27:39 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-12 12:27:39 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-12 12:27:39 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-12 12:27:39 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-12 12:27:39 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-12 12:27:40 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-12 12:27:40 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 12:27:40 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-12 12:27:41 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-12 12:27:41 [Test worker] INFO  c.w.r.service.OrderServiceTest - Started OrderServiceTest in 4.703 seconds (process running for 5.549)
+2025-04-12 12:27:42 [Test worker] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-04-12 12:27:42 [Test worker] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "restauranttable_table_number_key"
+  Detail: Key (table_number)=(5) already exists.
+2025-04-12 12:27:42 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 12:27:42 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-12 12:27:42 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-12 12:32:15 [Test worker] INFO  c.w.r.service.OrderServiceTest - Starting OrderServiceTest using Java 24 with PID 23060 (started by Volodymyr in C:\uni\Restaurant2\Restaurant2)
+2025-04-12 12:32:15 [Test worker] INFO  c.w.r.service.OrderServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-12 12:32:16 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-12 12:32:16 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+2025-04-12 12:32:16 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-12 12:32:17 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c346c45
+2025-04-12 12:32:17 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-12 12:32:17 [Test worker] INFO  liquibase.database - Set default schema name to public
+2025-04-12 12:32:17 [Test worker] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 12:32:17 [Test worker] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2025-04-12 12:32:17 [Test worker] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 12:32:17 [Test worker] INFO  liquibase.util - UPDATE SUMMARY
+2025-04-12 12:32:17 [Test worker] INFO  liquibase.util - Run:                          0
+2025-04-12 12:32:17 [Test worker] INFO  liquibase.util - Previously run:               5
+2025-04-12 12:32:17 [Test worker] INFO  liquibase.util - Filtered out:                 0
+2025-04-12 12:32:17 [Test worker] INFO  liquibase.util - -------------------------------
+2025-04-12 12:32:17 [Test worker] INFO  liquibase.util - Total change sets:            5
+2025-04-12 12:32:17 [Test worker] INFO  liquibase.util - Update summary generated
+2025-04-12 12:32:17 [Test worker] INFO  liquibase.command - Command execution complete
+2025-04-12 12:32:17 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-12 12:32:17 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-12 12:32:17 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-12 12:32:18 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-12 12:32:18 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-12 12:32:18 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-12 12:32:18 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 12:32:19 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-12 12:32:19 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-12 12:32:20 [Test worker] INFO  c.w.r.service.OrderServiceTest - Started OrderServiceTest in 4.967 seconds (process running for 5.805)
+2025-04-12 12:32:20 [Test worker] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-04-12 12:32:20 [Test worker] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "restauranttable_table_number_key"
+  Detail: Key (table_number)=(5) already exists.
+2025-04-12 12:32:20 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 12:32:20 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-12 12:32:20 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-12 12:36:18 [Test worker] INFO  c.w.r.s.OrderServiceIntegrationTest - Starting OrderServiceIntegrationTest using Java 24 with PID 23044 (started by Volodymyr in C:\uni\Restaurant2\Restaurant2)
+2025-04-12 12:36:18 [Test worker] INFO  c.w.r.s.OrderServiceIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-12 12:36:19 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-12 12:36:19 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 4 JPA repository interfaces.
+2025-04-12 12:36:19 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-12 12:36:19 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c67395
+2025-04-12 12:36:19 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-12 12:36:20 [Test worker] INFO  liquibase.database - Set default schema name to public
+2025-04-12 12:36:20 [Test worker] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 12:36:20 [Test worker] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2025-04-12 12:36:20 [Test worker] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 12:36:20 [Test worker] INFO  liquibase.util - UPDATE SUMMARY
+2025-04-12 12:36:20 [Test worker] INFO  liquibase.util - Run:                          0
+2025-04-12 12:36:20 [Test worker] INFO  liquibase.util - Previously run:               5
+2025-04-12 12:36:20 [Test worker] INFO  liquibase.util - Filtered out:                 0
+2025-04-12 12:36:20 [Test worker] INFO  liquibase.util - -------------------------------
+2025-04-12 12:36:20 [Test worker] INFO  liquibase.util - Total change sets:            5
+2025-04-12 12:36:20 [Test worker] INFO  liquibase.util - Update summary generated
+2025-04-12 12:36:20 [Test worker] INFO  liquibase.command - Command execution complete
+2025-04-12 12:36:20 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-12 12:36:20 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-12 12:36:20 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-12 12:36:20 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-12 12:36:20 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-12 12:36:21 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-12 12:36:21 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 12:36:21 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-12 12:36:22 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-12 12:36:22 [Test worker] INFO  c.w.r.s.OrderServiceIntegrationTest - Started OrderServiceIntegrationTest in 4.639 seconds (process running for 5.427)
+2025-04-12 12:36:23 [Test worker] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-04-12 12:36:23 [Test worker] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "restauranttable_table_number_key"
+  Detail: Key (table_number)=(1) already exists.
+2025-04-12 12:36:23 [Test worker] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-04-12 12:36:23 [Test worker] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "restauranttable_table_number_key"
+  Detail: Key (table_number)=(1) already exists.
+2025-04-12 12:36:23 [Test worker] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-04-12 12:36:23 [Test worker] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "restauranttable_table_number_key"
+  Detail: Key (table_number)=(1) already exists.
+2025-04-12 12:36:23 [Test worker] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-04-12 12:36:23 [Test worker] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "restauranttable_table_number_key"
+  Detail: Key (table_number)=(1) already exists.
+2025-04-12 12:36:23 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 12:36:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-12 12:36:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-12 12:37:35 [Test worker] INFO  c.w.r.s.OrderServiceIntegrationTest - Starting OrderServiceIntegrationTest using Java 24 with PID 2252 (started by Volodymyr in C:\uni\Restaurant2\Restaurant2)
+2025-04-12 12:37:35 [Test worker] INFO  c.w.r.s.OrderServiceIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-12 12:37:36 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-12 12:37:36 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2025-04-12 12:37:36 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-12 12:37:36 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7da77305
+2025-04-12 12:37:36 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-12 12:37:36 [Test worker] INFO  liquibase.database - Set default schema name to public
+2025-04-12 12:37:37 [Test worker] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 12:37:37 [Test worker] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2025-04-12 12:37:37 [Test worker] INFO  liquibase.changelog - Reading from public.databasechangelog
+2025-04-12 12:37:37 [Test worker] INFO  liquibase.util - UPDATE SUMMARY
+2025-04-12 12:37:37 [Test worker] INFO  liquibase.util - Run:                          0
+2025-04-12 12:37:37 [Test worker] INFO  liquibase.util - Previously run:               5
+2025-04-12 12:37:37 [Test worker] INFO  liquibase.util - Filtered out:                 0
+2025-04-12 12:37:37 [Test worker] INFO  liquibase.util - -------------------------------
+2025-04-12 12:37:37 [Test worker] INFO  liquibase.util - Total change sets:            5
+2025-04-12 12:37:37 [Test worker] INFO  liquibase.util - Update summary generated
+2025-04-12 12:37:37 [Test worker] INFO  liquibase.command - Command execution complete
+2025-04-12 12:37:37 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-12 12:37:37 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-12 12:37:37 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-12 12:37:37 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-12 12:37:37 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-12 12:37:38 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-12 12:37:38 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 12:37:38 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-12 12:37:39 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-12 12:37:39 [Test worker] INFO  c.w.r.s.OrderServiceIntegrationTest - Started OrderServiceIntegrationTest in 4.712 seconds (process running for 5.503)
+2025-04-12 12:37:40 [Test worker] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-04-12 12:37:40 [Test worker] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "restauranttable_table_number_key"
+  Detail: Key (table_number)=(1) already exists.
+2025-04-12 12:37:40 [Test worker] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-04-12 12:37:40 [Test worker] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "restauranttable_table_number_key"
+  Detail: Key (table_number)=(1) already exists.
+2025-04-12 12:37:40 [Test worker] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-04-12 12:37:40 [Test worker] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "restauranttable_table_number_key"
+  Detail: Key (table_number)=(1) already exists.
+2025-04-12 12:37:40 [Test worker] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-04-12 12:37:40 [Test worker] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "restauranttable_table_number_key"
+  Detail: Key (table_number)=(1) already exists.
+2025-04-12 12:37:40 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-12 12:37:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-12 12:37:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
