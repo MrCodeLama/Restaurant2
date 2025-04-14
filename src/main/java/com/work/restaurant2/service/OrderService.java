@@ -100,7 +100,6 @@ public class OrderService {
             logger.warn("Для столика {} немає замовлень", table.getNumber());
             throw new RuntimeException("Замовлень за цим столиком немає");
         }
-        // Видаляємо всі замовлення за столиком
         orderRepository.deleteAll(orders);
         logger.info("Підтверджено оплату та видалено замовлення для столика {}", table.getNumber());
     }

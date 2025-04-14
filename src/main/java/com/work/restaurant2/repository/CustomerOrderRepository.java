@@ -10,6 +10,4 @@ import java.util.List;
 @Repository
 public interface CustomerOrderRepository extends JpaRepository<CustomerOrder, Long> {
     List<CustomerOrder> findByRestaurantTable(RestaurantTable restaurantTable);
-
-    void deleteByRestaurantTable(RestaurantTable restaurantTable);
 }
