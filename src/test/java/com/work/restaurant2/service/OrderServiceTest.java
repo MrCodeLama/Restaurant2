@@ -114,7 +114,6 @@ public class OrderServiceTest {
         table.setNumber(5);
         when(tableRepository.findById(tableId)).thenReturn(Optional.of(table));
 
-        // Створюємо замовлення з одним OrderItem
         CustomerOrder order = new CustomerOrder();
         OrderItem orderItem = new OrderItem();
         MenuItem menuItem = new MenuItem("Burger", "Delicious burger", 5.99, Category.MAIN);
