@@ -39,7 +39,6 @@ public class OrderServiceTest {
         MockitoAnnotations.openMocks(this);
     }
 
-    // Тест для успішного створення замовлення
     @Test
     public void testCreateOrderSuccessful() {
         Long tableId = 1L;
@@ -58,7 +57,6 @@ public class OrderServiceTest {
         menuItem.setId(10L);
         when(menuItemRepository.findById(10L)).thenReturn(Optional.of(menuItem));
 
-        // Імітуємо збереження замовлення
         CustomerOrder savedOrder = new CustomerOrder();
         savedOrder.setId(100L);
         when(orderRepository.save(any(CustomerOrder.class))).thenReturn(savedOrder);
@@ -70,7 +68,6 @@ public class OrderServiceTest {
         verify(orderRepository, times(1)).save(any(CustomerOrder.class));
     }
 
-    // Тест, коли не знайдено столик
     @Test
     public void testCreateOrderTableNotFound() {
         Long tableId = 1L;
@@ -87,7 +84,6 @@ public class OrderServiceTest {
         assertTrue(exception.getMessage().contains("Столик не знайдено"));
     }
 
-    // Тест, коли не знайдено страву (MenuItem)
     @Test
     public void testCreateOrderMenuItemNotFound() {
         Long tableId = 1L;
@@ -110,7 +106,6 @@ public class OrderServiceTest {
         assertTrue(exception.getMessage().contains("Не знайдено страву з id: 10"));
     }
 
-    // Тест для отримання OrderItemDTOs для заданого столика
     @Test
     public void testGetOrderItemDTOsForTable() {
         Long tableId = 1L;
@@ -141,7 +136,6 @@ public class OrderServiceTest {
         assertEquals(3, dto.getQuantity());
     }
 
-    // Тест, коли для столика немає замовлень
     @Test
     public void testGetOrderItemDTOsForTableNoOrderFound() {
         Long tableId = 1L;
@@ -156,7 +150,6 @@ public class OrderServiceTest {
         assertTrue(dtos.isEmpty());
     }
 
-    // Тест для підтвердження оплати (закриття замовлення)
     @Test
     public void testConfirmPaymentSuccessful() {
         Long tableId = 1L;
@@ -177,7 +170,6 @@ public class OrderServiceTest {
         verify(orderRepository, times(1)).deleteAll(orders);
     }
 
-    // Тест, коли для столика немає замовлень для закриття
     @Test
     public void testConfirmPaymentNoOrders() {
         Long tableId = 1L;

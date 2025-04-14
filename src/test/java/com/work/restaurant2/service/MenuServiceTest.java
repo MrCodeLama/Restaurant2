@@ -27,7 +27,6 @@ public class MenuServiceTest {
         MockitoAnnotations.openMocks(this);
     }
 
-    // Тест для отримання списку меню
     @Test
     public void testGetAllMenuItems() {
         MenuItem item1 = new MenuItem("Pizza", "Cheese Pizza", 9.99, Category.MAIN);

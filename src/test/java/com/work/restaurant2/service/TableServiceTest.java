@@ -32,7 +32,6 @@ public class TableServiceTest {
         MockitoAnnotations.openMocks(this);
     }
 
-    // Тест для перевірки статусу замовлень столиків
     @Test
     public void testGetAllTablesWithOrderStatus() {
         RestaurantTable table1 = new RestaurantTable();
@@ -45,10 +44,8 @@ public class TableServiceTest {
 
         when(tableRepository.findAll()).thenReturn(List.of(table1, table2));
 
-        // Для table1 є замовлення
         CustomerOrder order = new CustomerOrder();
         when(orderRepository.findByRestaurantTable(table1)).thenReturn(List.of(order));
-        // Для table2 замовлень немає
         when(orderRepository.findByRestaurantTable(table2)).thenReturn(List.of());
 
         List<TableDTO> tableDTOs = tableService.getAllTablesWithOrderStatus();
